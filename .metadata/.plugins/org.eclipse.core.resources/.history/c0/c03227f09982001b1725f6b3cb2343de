@@ -1,0 +1,8 @@
+package com.example.methodreferences.type1;
+
+public class Example {
+
+	public void print() {
+		
+	}
+}

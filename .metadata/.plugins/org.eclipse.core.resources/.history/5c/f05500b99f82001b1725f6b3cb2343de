@@ -1,0 +1,15 @@
+package com.example.methodreferences.type1;
+
+public class Example {
+
+	public void print(String a) {
+		System.out.println("Hello World!");
+	}
+	
+	public static void main(String[] args) {
+		
+		Example ob = new Example();
+		MyFunctionInterface ref = ob::print;
+		ref.display("deepak");
+	}
+}

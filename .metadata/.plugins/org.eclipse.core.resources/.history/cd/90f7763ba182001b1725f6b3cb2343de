@@ -1,0 +1,13 @@
+package com.example.methodreferences.type3;
+
+/**
+ * Method reference to an instance method of an arbitrary object of a particular type
+ */
+public class Example {
+
+	public static void main(String[] args) {
+		String[] array = { "b", "d", "a", "z" };
+		
+		
+	}
+}

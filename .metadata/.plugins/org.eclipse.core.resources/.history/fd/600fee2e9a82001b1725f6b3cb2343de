@@ -1,0 +1,14 @@
+package com.example.methodreferences.type1;
+
+public class Example {
+
+	public void print() {
+		System.out.println("Hello World!");
+	}
+	
+	public static void main(String[] args) {
+		
+		Example ob = new Example();
+		ob::print;
+	}
+}

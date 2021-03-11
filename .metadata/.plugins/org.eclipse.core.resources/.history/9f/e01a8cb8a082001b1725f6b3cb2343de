@@ -1,0 +1,11 @@
+package com.example.methodreferences.type2;
+
+/**
+ * Method reference to a static method of a class
+ */
+public class Example {
+
+	public static void main(String[] args) {
+		Multiplication::multiply;
+	}
+}

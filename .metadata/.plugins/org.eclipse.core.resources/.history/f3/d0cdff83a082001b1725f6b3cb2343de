@@ -1,0 +1,8 @@
+package com.example.methodreferences.type2;
+
+/**
+ * Method reference to a static method of a class
+ */
+public class Example {
+
+}

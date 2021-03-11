@@ -1,0 +1,19 @@
+package com.example.lamda.example1;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		/** Example 1 */
+		MyFunctionalInterface msg = (name) -> {
+			return "Hello, " + name;
+		};
+		
+		System.out.println(msg.message("Engineer"));
+		
+		/** Example 2 */
+		List<Integer> list = new ArrayList<>();
+	}
+}
